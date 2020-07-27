@@ -251,18 +251,16 @@ if $AUTO_PREFIX
 then
     if [ "$USER" == "root" ]
     then
+        PREFIX="$SYS_HOME/conda/forge"
 	case $SIZE in
 	    "minimal")
 		SIZE_NAME=$MIN_SIZE_NAME
-		PREFIX="$SYS_HOME/conda/miniforge"
 		;;
 	    "nominal")
 		SIZE_NAME=$NOM_SIZE_NAME 
-		PREFIX="$SYS_HOME/conda/forge"
 		;;
 	    "maximal")
 		SIZE_NAME=$MAX_SIZE_NAME
-		PREFIX="$SYS_HOME/conda/maxiforge"
 		;;
 	    *)
 		printf "WTF: can't end up here !"
