@@ -1,3 +1,5 @@
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 # conda-forge-installer
 
 The way to setup `miniconda` for `conda-forge` is via [miniforge](https://github.com/conda-forge/miniforge), but as the name suggest, it is a minimalistic base installation that can be intimidating for some people.
